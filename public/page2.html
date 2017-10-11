@@ -1,0 +1,65 @@
+<!-- This is a static file --><!DOCTYPE html>
+<html>
+<head>
+   <!--
+      JavaScript 6th Edition
+      Chapter 3
+      Hands-on Project 3-1
+
+      Author: Jordan Price  
+      Date:   9/24/17
+
+      Filename: index.htm
+   -->
+   <meta charset="utf-8" />
+   <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0">
+   <title>Bouncy House Sales</title>
+   <link rel="stylesheet" href="styles2.css" />
+   <link href="https://fonts.google.com/specimen/Josefin+Sans" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+  <div id="container">
+   <header>
+        <h1>
+          <img src="https://cdn.glitch.com/509d0d81-5905-4140-b39e-6de276b411b9%2FWebp.net-resizeimage.png?1505261578900"/>
+          Bouncy House Sales
+        </h1>
+   </header>
+
+    <nav>
+     <ul>
+           <li><a href="index.html">Bounces</a></li>
+           <li id="currentpage"><a href="#">Buy</a></li>
+           <li id="page3"><a href="page3.html">About Us</a></li>
+           <li id="page4"><a href="page4.html">Contact Us</a></li>     
+     </ul>      
+  </nav>
+    
+   <article>
+      <h2>Bounce Selections</h2>
+      <form>
+         <input type="checkbox" id="item1" value="1200" />
+         <label for="item1">Crayon bounce ($1200)</label>
+         <input type="checkbox" id="item2" value="2500" />
+         <label for="item2">Bounce with Slide ($2500)</label>
+         <input type="checkbox" id="item3" value="2800" />
+         <label for="item3">Fire Station ($2800)</label>
+         <input type="checkbox" id="item4" value="3100" />
+         <label for="item4">Obstacle Course ($3100)</label>
+         <input type="checkbox" id="item5" value="3500" />
+         <label for="item5">Wet Slide ($3500)</label>
+         <input type="button" value="Submit" id="sButton" />
+      </form>
+      <div>
+       <p id="total"></p>
+      </div>
+   </article>
+    <footer>
+         <p>Bouncy House Sales &bull; Salisbury, Maryland</p>
+      </footer>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
